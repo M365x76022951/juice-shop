@@ -137,22 +137,7 @@
         "zoneRedundancy": "Disabled",
         "anonymousPullEnabled": false
       }
-    },
-    {
-      "type": "Microsoft.KeyVault/vaults",
-      "apiVersion": "2021-11-01-preview",
-      "name": "[parameters('keyvaultName')]",
-      "location": "[parameters('location')]",
-      "properties": {
-        "sku": {
-          "family": "A",
-          "name": "standard"
-        },
-        "accessPolicies": [],
-        "tenantId": "[parameters('tenantId')]",
-        "publicNetworkAccess": "Enabled"
-      }
-    },
+    },    
     {
       "type": "Microsoft.Web/sites",
       "apiVersion": "2021-03-01",
