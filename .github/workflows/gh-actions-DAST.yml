@@ -2,7 +2,7 @@ name: Dynamic Application Security Testing (DAST)
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
